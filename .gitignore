@@ -1,0 +1,20 @@
+# Dados e configuracoes locais (podem conter IPs, usuarios e senhas)
+config.json
+*.ini
+.env
+*.xlsx
+*.xls
+*.csv
+*.kmz
+*.kml
+usuarios*.json
+logs/
+# Codigo do software avaliado (contem credenciais padrao ate a correcao da PQ01)
+src/
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
