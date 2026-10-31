@@ -16,8 +16,10 @@ confiabilidade do status das ONUs, segurança de credenciais, manutenibilidade, 
 | Pasta | Conteúdo |
 |---|---|
 | `docs/` | Diagnóstico inicial, plano de testes e registros das sprints |
-| `tools/` | Script de métricas estáticas (complexidade ciclomática, tamanho de funções, `except: pass`) |
-| `tests/` | Testes automatizados (a partir da Sprint 02) |
+| `tools/` | Métricas estáticas (`metricas.py`), busca de segredos (`busca_segredos.py`) e cobertura (`cobertura.py`) |
+| `testes/` | Testes automatizados T01–T03 e T08 com dados fictícios (Sprint 02) |
+
+Como rodar: `GERENCIADOR=/caminho/gerenciador_onus.py python -m unittest discover -s testes -v`
 
 > O código-fonte do software avaliado **não** é versionado neste repositório público enquanto houver
 > credenciais embutidas (problema PQ01). Planilhas, KMZ e arquivos de configuração também ficam fora (`.gitignore`).
