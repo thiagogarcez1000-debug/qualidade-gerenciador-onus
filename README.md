@@ -16,8 +16,8 @@ confiabilidade do status das ONUs, segurança de credenciais, manutenibilidade, 
 | Pasta | Conteúdo |
 |---|---|
 | `docs/` | Diagnóstico inicial, plano de testes e registros das sprints |
-| `tools/` | Métricas estáticas (`metricas.py`), busca de segredos (`busca_segredos.py`) e cobertura (`cobertura.py`) |
-| `testes/` | Testes automatizados T01–T03 e T08 com dados fictícios (Sprint 02) |
+| `tools/` | Métricas (`metricas.py`), busca de segredos (`busca_segredos.py`), cobertura (`cobertura.py`), desempenho simulado (`desempenho_sim.py`) e correções da Sprint 03 (`aplicar_s3.py`) |
+| `testes/` | Testes automatizados T01–T03 e T08 (Sprint 02); T05, injeção de falhas, confirmação de queda e diagnóstico (Sprint 03) |
 
 Como rodar: `GERENCIADOR=/caminho/gerenciador_onus.py python -m unittest discover -s testes -v`
 
